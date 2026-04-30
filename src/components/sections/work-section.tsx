@@ -15,32 +15,32 @@ export function WorkSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Проекты
+            Тарифы
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Избранные работы</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Выберите подходящий план</p>
         </div>
 
         <div className="space-y-6 md:space-y-8">
           {[
             {
               number: "01",
-              title: "ТехноСтарт",
-              category: "Корпоративный портал",
-              year: "2024",
+              title: "Старт — 300 Мбит/с",
+              category: "Идеально для одного человека или пары",
+              year: "499 ₽/мес",
               direction: "left",
             },
             {
               number: "02",
-              title: "АльфаТрейд",
-              category: "Финтех платформа",
-              year: "2024",
+              title: "Семейный — 500 Мбит/с",
+              category: "Для семьи: стриминг, игры, работа из дома",
+              year: "699 ₽/мес",
               direction: "right",
             },
             {
               number: "03",
-              title: "МедиаПульс",
-              category: "Медиа сервис",
-              year: "2023",
+              title: "Максимум — 1 Гбит/с",
+              category: "Максимальная скорость без ограничений",
+              year: "999 ₽/мес",
               direction: "left",
             },
           ].map((project, i) => (
@@ -88,7 +88,7 @@ function ProjectCard({
           <p className="font-mono text-xs text-foreground/50 md:text-sm">{project.category}</p>
         </div>
       </div>
-      <span className="font-mono text-xs text-foreground/30 md:text-sm">{project.year}</span>
+      <span className="font-mono text-xs text-foreground/70 md:text-base font-medium">{project.year}</span>
     </div>
   )
 }

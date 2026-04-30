@@ -17,29 +17,29 @@ export function ServicesSection() {
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
             Услуги
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Всё для вашего комфорта</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Оптоволокно домой",
+              description: "Прокладка оптического кабеля прямо до вашей квартиры — максимальная скорость и надёжность",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Поддержка 24/7",
+              description: "Служба технической поддержки работает круглосуточно — решим любой вопрос за 30 минут",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Wi-Fi роутер в аренду",
+              description: "Современный роутер в комплекте с тарифом — настройка и замена за наш счёт",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Без ограничений",
+              description: "Безлимитный трафик на всех тарифах без снижения скорости и скрытых платежей",
               direction: "bottom",
             },
           ].map((service, i) => (
