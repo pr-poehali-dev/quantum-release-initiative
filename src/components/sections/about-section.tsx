@@ -18,11 +18,11 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
               }`}
             >
               <h2 className="mb-3 font-sans text-3xl font-light leading-[1.1] tracking-tight text-foreground md:mb-4 md:text-6xl lg:text-7xl">
-                Интернет,
+                Онлайн
                 <br />
-                которому
+                больше чем
                 <br />
-                <span className="text-foreground/40">доверяют</span>
+                <span className="text-foreground/40">просто провайдер</span>
               </h2>
             </div>
 
